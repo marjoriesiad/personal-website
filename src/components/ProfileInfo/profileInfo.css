@@ -1,0 +1,49 @@
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+}
+
+.profile-info > * {
+    margin: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profile-info h6 {
+    font-size: 25px;
+}
+
+.profile-info .profile-at {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.profile-sub {
+    display: flex;
+    color: gray;
+}
+
+.profile-sub > * {
+    margin-right: 25px;
+}
+
+.profile-icon {
+    margin-right: 5px;
+}
+
+.profile-count {
+    display: flex;
+    margin-top: -20px;
+    color: gray;
+}
+
+.profile-count span {
+    color: white;
+    font-weight: bold;
+}
+
+.profile-count p {
+    margin-right: 25px;
+}

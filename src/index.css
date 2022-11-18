@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+#root {
+    width: 80%;
+    margin: 0 auto;
+}
 
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Asap', sans-serif;
+    background-color: #14171a;
 }

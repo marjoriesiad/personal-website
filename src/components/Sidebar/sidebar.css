@@ -1,10 +1,10 @@
 .aside-nav {
     display: flex;
     flex-direction: column;
-    background-color: #14171a;
     width: 15%;
     height: 100vh;
     color: white;
     text-transform: uppercase;
-    border-right: 1px solid red;
+    border-right: 1px solid white;
+    float: left;
 }
