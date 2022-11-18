@@ -1,0 +1,16 @@
+.aside-nav-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+    margin-left: 20%;
+    letter-spacing: 2px;
+}
+
+.aside-nav-icon {
+    height: 20px;
+}
+
+.aside-nav-text {
+    margin-left: 10px;
+}
