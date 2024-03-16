@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink } from 'vue-router'
+
 // get current time
 const currentDate = new Date();
 const currentTime = `${currentDate.getHours()} : ${
@@ -8,11 +10,6 @@ const currentTime = `${currentDate.getHours()} : ${
 const toggleMenu = () => {
   const navbarMenu = document.getElementById('navbar-menu');
   navbarMenu.classList.toggle('hidden')
-}
-
-const HideMenu = () => {
-  const navbarMenu = document.getElementById('navbar-menu');
-  navbarMenu.classList.add('hidden')
 }
 </script>
 
@@ -33,6 +30,17 @@ const HideMenu = () => {
         <p class="text-2xl font-bold w-[160px] -rotate-90 absolute -left-[28%] top-[70%]">
           Windows 98
         </p>
+      </div>
+      <div class="py-5">
+        <div class="flex flex-col space-y-6 mt-5">
+          <RouterLink to="/" class="flex gap-3"><img src="../assets/images/a-propos.png" alt="" class="w-8 h-8">A Propos</RouterLink>
+      <div class="border-2 border-b-gray-500 w-[95%]"></div>
+      <RouterLink to="/" class="flex gap-3"><img src="../assets/images/projets.png" alt="" class="w-8 h-8" @click="handleClose">Projets</RouterLink>
+      <RouterLink to="/" class="flex gap-3"><img src="../assets/images/blog.png" alt="" class="w-8 h-8">Blog</RouterLink>
+      <RouterLink to="/" class="flex gap-3"> <img src="../assets/images/contact.png" alt="" class="w-8 h-8">Contact</RouterLink>
+      <div class="border-2 border-b-gray-500 w-[95%]"></div>
+      <RouterLink to="/" class="flex gap-3"><img src="../assets/images/connexion.png" alt="" class="w-8 h-8">Connexion</RouterLink>
+        </div>
       </div>
     </div>
   </div>
