@@ -1,4 +1,7 @@
 <script setup>
+// get current time
+const currentDate = new Date();
+const currentTime = `${currentDate.getHours()} : ${(currentDate.getMinutes() < 10 ? '0' : '') + currentDate.getMinutes()}` 
 </script>
 
 <template>
@@ -8,7 +11,7 @@
         </div>
             
         <div class="p-2 px-3 mr-2 border-2 border-t-gray-500 border-r-white border-b-white border-l-gray-500 font-bold">
-            12:41
+            {{ currentTime }}
         </div>
     </div>    
 </template>
