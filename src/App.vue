@@ -9,7 +9,7 @@ const closeMenu = () => {
 </script>
 
 <template>
-  <div class="w-full h-full" @click="closeMenu">
+  <div class="w-full h-screen" @click="closeMenu">
     <RouterView />
   </div>
   <Navbar />
