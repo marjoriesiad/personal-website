@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 * {
-  font-family: "Cutive Mono", monospace;
-  letter-spacing: -2px;
+  font-family: "Courrier Prime", monospace;
+  letter-spacing: -1px;
 }
