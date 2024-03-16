@@ -34,7 +34,7 @@ const toggleMenu = () => {
         <div class="flex flex-col space-y-6 mt-5">
           <RouterLink to="/" class="flex gap-3"><img src="../assets/images/a-propos.png" alt="" class="w-8 h-8">A Propos</RouterLink>
       <div class="border-2 border-b-gray-500 w-[95%]"></div>
-      <RouterLink to="/" class="flex gap-3"><img src="../assets/images/projets.png" alt="" class="w-8 h-8" @click="handleClose">Projets</RouterLink>
+      <RouterLink to="/projets" class="flex gap-3"><img src="../assets/images/projets.png" alt="" class="w-8 h-8" @click="handleClose">Projets</RouterLink>
       <RouterLink to="/" class="flex gap-3"><img src="../assets/images/blog.png" alt="" class="w-8 h-8">Blog</RouterLink>
       <RouterLink to="/" class="flex gap-3"> <img src="../assets/images/contact.png" alt="" class="w-8 h-8">Contact</RouterLink>
       <div class="border-2 border-b-gray-500 w-[95%]"></div>
