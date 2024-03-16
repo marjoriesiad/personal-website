@@ -24,7 +24,6 @@ const toggleMenu = () => {
     </div>
   </div>
 
-  <div class="backdrop w-full h-screen">
     <div class="flex bg-windowsgray fixed left-1 w-56 min-h-12 h-96 bottom-14 text-xl border-2 border-r-gray-500 border-b-gray-500 z-10 hidden" id="navbar-menu">
       <div class="bg-windowsblue h-95 w-10 mr-4 text-white">
         <p class="text-2xl font-bold w-[160px] -rotate-90 absolute -left-[28%] top-[70%]">
@@ -43,5 +42,5 @@ const toggleMenu = () => {
         </div>
       </div>
     </div>
-  </div>
+
 </template>
