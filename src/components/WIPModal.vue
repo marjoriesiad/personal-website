@@ -1,5 +1,5 @@
 <template>
-    <div class=" h-full w-full flex justify-center items-center bg-transparent z-50 absolute" id="modal">
+    <div class=" h-full w-full flex justify-center items-center bg-transparent z-50 absolute" :class="dontShow" id="modal">
         <div class="bg-windowsgray h-66 w-72 border-2 border-r-gray-500 border-b-gray-500 shadow-xl">
             <div class="flex justify-between bg-gradient-to-r from-windowsblue to-linearblue px-3 h-6 items-center">
             <p class="text-white text-sm">Important ! Work in progress...</p>
@@ -25,9 +25,12 @@
 <script setup>
 const handleAgree = () => {
     document.getElementById('modal').style.display = "none";
+    localStorage.setItem('modal', 'hidden')
 }
 
 const handleDisagree = () => {
     document.getElementById('disagree').classList.remove('hidden')
 }
+
+const dontShow = localStorage.getItem('modal')
 </script>
