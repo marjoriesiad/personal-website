@@ -1,4 +1,9 @@
+<script setup>
+  import WIPModal from '@/components/WIPModal.vue';
+</script>
+
 <template>
+  <WIPModal />
 <div class="h-full flex justify-center items-center">
   <div class="bg-windowsgray max-w-[70%] max-h-[80%] absolute border-2 border-r-gray-500 border-b-gray-500 md:max-w-[50%]">
     <div class="flex justify-between bg-gradient-to-r from-windowsblue to-linearblue px-3 h-6 items-center">
