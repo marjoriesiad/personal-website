@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="flex flex-col justify-center items-center text-center text-lg p-3">
-            <p class="font-bold">Site est en cours de création</p>
+            <p class="font-bold">Site en cours de création</p>
             <p>Il n'est pas parfait et n'a pas vocation à l'être</p>
             <p>Merci de le prendre en compte pendant votre visite</p>
 
